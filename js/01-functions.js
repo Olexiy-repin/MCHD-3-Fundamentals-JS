@@ -8,27 +8,34 @@
  * - Області видимості
  */
 
+// function greet(firstName, lastName) {
+//   console.log(`Welcome ${firstName} ${lastName}`);
+// }
+
+// greet('Oleksii', 'Repin');
+
+// greet('Addie', 'Murray');
+
+// greet('Ricky', 'White');
+
+// function sum(numA, numB) {
+//   return numA + numB;
+// }
+
+// console.log(sum(10, 20));
+
+// const result = sum(22, 11);
+
+// console.log(result);
+
 /*
 TODO: Напишіть функцію getRectArea(sideA, sideB) для обчислення площі прямокутника.
 TODO: Сторони прямокутника будуть переденні до параметрів sideA та sideB.
 */
+// function getRectArea(sideA, sideB) {
+//   return sideA * sideB;
+// }
 
 // console.log(getRectArea(8, 11)); // 88
 // console.log(getRectArea(18, 11)); // 198
 // console.log(getRectArea(8, 21)); // 168
-
-/*
- TODO: Напиши функцію calcBMI(weight, height) яка розраховує та повертає індекс
- TODO: маси тіла людини. Для цього необхідно розділити вагу на
- TODO: квадрат висоти.
- TODO:
- TODO: Вага та висота будуть спеціально передані як рядки.
- TODO:
- TODO: Індекс маси тіла необхідно округлити до однієї цифри після коми.
- */
-
-// function calcBMI(weight, height) {}
-
-// const bmi = calcBMI('88.3', '1.75');
-
-// console.log(bmi); // 28.8
