@@ -5,8 +5,12 @@ TODO: Значення гарантовано розділені пробіло�
  */
 
 // const values = '8 11';
+// const rectSides = values.split(' ');
+// const rectArea = Number(rectSides[0]) * Number(rectSides[1]);
 
-// console.log('values:', values);
+// console.log('values =', values);
+// console.log('rectSides =', rectSides);
+// console.log('rectArea =', rectArea);
 
 /*
 TODO: Напиши скрипт, який підраховує суму всіх парних чисел у масиві.
@@ -16,6 +20,15 @@ TODO: Напиши скрипт, який підраховує суму всіх
 // let total = 0;
 
 // console.log('numbers:', numbers);
+
+// for (const num of numbers) {
+//   if (num % 2 === 0) {
+//     // total = total + num;
+//     total += num;
+//   }
+// }
+
+// console.log('total =', total);
 
 /*
 TODO: Напиши скрипт, який виводить у консоль ім'я та телефонний номер користувача.

@@ -12,42 +12,70 @@
 //~ Використання метода join()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
-// const result = [];
+// const result = courses.join('/');
+
+// console.log('courses =', courses);
+// console.log('result =', result);
 
 //~ Використання метода split()
 
 // const phoneNumbers = '+380961111111,+380961111111,+380961111111,+380961111111';
-// const phoneNumbersArr = '';
+// const phoneNumbersArr = phoneNumbers.split(',');
 
-// console.log('phoneNumbers:', phoneNumbers);
-// console.log('phoneNumbersArr:', phoneNumbersArr);
+// console.log('phoneNumbers =', phoneNumbers);
+// console.log('phoneNumbersArr =', phoneNumbersArr);
 
 //~ Використання метода slice()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
-// const coursesCopy = [];
+// const coursesCopy = courses.slice(2, 4);
 
-// console.log('courses:', courses);
-// console.log('coursesCopy:', coursesCopy);
+// console.log('courses =', courses);
+// console.log('coursesCopy =', coursesCopy);
+
+// coursesCopy[0] = 'HTML Fundamentals';
+
+// console.log('courses =', courses);
+// console.log('coursesCopy =', coursesCopy);
 
 //~ Використання метода concat()
 
 // const oldCourses = ['HTML', 'CSS'];
 // const newCourses = ['JavaScript', 'React', 'NodeJS'];
-// const allCourses = [];
+// const allCourses = oldCourses.concat(newCourses, [1, 2, 3], ['Hello!']);
 
-// console.log('oldCourses:', oldCourses);
-// console.log('newCourses:', newCourses);
-// console.log('allCourses:', allCourses);
+// console.log('oldCourses =', oldCourses);
+// console.log('newCourses =', newCourses);
+// console.log('allCourses =', allCourses);
 
-//~ Використання метода indexOf()
+//~ Використання метода indexOf() / lastIndexOf()
 
-// const courses = ['HTML', 'CSS', 'HTML', 'JavaScript', 'React', 'NodeJS'];
+// const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'JavaScript', 'NodeJS'];
 
-// console.log('courses:', courses);
+// console.log('courses =', courses);
+
+// const idxOfJS = courses.lastIndexOf('JavaScript');
+
+// console.log('idxOfJS =', idxOfJS);
 
 //~ Використання методів push()/pop() та unshift()/shift()
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS'];
 
-// console.log('courses:', courses);
+// console.log('courses =', courses);
+
+// courses.push('TypeScript');
+
+// console.log('courses =', courses);
+
+// courses.unshift('Redux');
+
+// console.log('courses =', courses);
+
+// courses.pop();
+
+// console.log('courses =', courses);
+
+// courses.shift();
+
+// console.log('courses =', courses);
