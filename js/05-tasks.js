@@ -12,12 +12,34 @@ TODO: - виводить вміст об'єкта user у форматі клю�
 //   premium: true,
 // };
 
+// user.mood = 'happy';
+// user.hobby = 'skydiving';
+// user.premium = !user.premium;
+
 // console.log('user:', user);
+
+// const userKeys = Object.keys(user);
+
+// console.log('userKeys =', userKeys);
+
+// for (const key of userKeys) {
+//   console.log(`${key}: ${user[key]}`);
+// }
 
 //TODO: Зведіть у квадрат кожен елемент цього об'єкта.
 // const coordinates = { x: 2, y: 3, z: 4 };
 
 // console.log('coordinates:', coordinates);
+
+// const coordinatesKeys = Object.keys(coordinates);
+
+// console.log('coordinatesKeys =', coordinatesKeys);
+
+// for (const key of coordinatesKeys) {
+//   coordinates[key] = coordinates[key] ** 2;
+// }
+
+// console.log('coordinates =', coordinates);
 
 /*
 TODO: У нас є об'єкт, де зберігаються зарплати нашої команди. Напишіть код для
@@ -31,3 +53,15 @@ TODO: Повинно вийти 390. Якщо об'єкт salaries порожн�
 // };
 
 // console.log('salaries:', salaries);
+
+// let totalSalary = 0;
+
+// const salariesValues = Object.values(salaries);
+
+// console.log('salariesValues =', salariesValues);
+
+// for (const salaryValue of salariesValues) {
+//   totalSalary += salaryValue;
+// }
+
+// console.log('totalSalary =', totalSalary);

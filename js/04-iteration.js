@@ -17,6 +17,15 @@
 
 // console.log(feedback);
 
+// let totalFeedbacks = 0;
+
+// for (const key in feedback) {
+//   // totalFeedbacks = totalFeedbacks + feedback[key];
+//   totalFeedbacks += feedback[key];
+// }
+
+// console.log(totalFeedbacks);
+
 //~ Через метод Object.keys() та цикл for...of
 // const feedback = {
 //   good: 5,
@@ -24,7 +33,19 @@
 //   bad: 3,
 // };
 
-// console.log('feedback:', feedback);
+// console.log('feedback =', feedback);
+
+// let totalFeedbacks = 0;
+
+// const feedbackKeys = Object.keys(feedback);
+
+// console.log('feedbackKeys =', feedbackKeys);
+
+// for (const key of feedbackKeys) {
+//   totalFeedbacks += feedback[key];
+// }
+
+// console.log(totalFeedbacks);
 
 //~ Через метод Object.values() та цикл for...of
 // const feedback = {
@@ -33,4 +54,16 @@
 //   bad: 3,
 // };
 
-// console.log('feedback:', feedback);
+// console.log('feedback =', feedback);
+
+// let totalFeedbacks = 0;
+
+// const feedbackValues = Object.values(feedback);
+
+// console.log('feedbackValues =', feedbackValues);
+
+// for (const value of feedbackValues) {
+//   totalFeedbacks += value;
+// }
+
+// console.log(totalFeedbacks);
