@@ -1,4 +1,12 @@
 //* Різниця між властивостями textContent та innerHTML
+// const refs = {
+//   title: document.querySelector('.js-title'),
+// };
+
+// console.log(refs);
+
+// refs.title.textContent = '<span>Main</span> Gallery';
+// refs.title.innerHTML = '<span>Main</span> Gallery';
 
 const pictures = [
   {
@@ -42,8 +50,27 @@ const pictures = [
 */
 
 //* Функція для створення карточки createGalleryCard(cardInfo)
-const createGalleryCard = pictureInfo => {};
+const createGalleryCard = pictureInfo => {
+  return `
+    <li class="gallery-item">
+      <a href="#">
+        <img src="${pictureInfo.url}" alt="${pictureInfo.alt}" width="${pictureInfo.width}" height="${pictureInfo.height}">
+      </a>
+    </li>
+  `;
+};
 
 //* Створення масиву рядків із елементами
+const galleryCardsTemplate = pictures.map(imgInfo => createGalleryCard(imgInfo)).join('');
+
+console.log(galleryCardsTemplate);
 
 //* Вставка елементів на сторінку (innerHTML/insertAdjacentHTML)
+const refs = {
+  galleryList: document.querySelector('.js-gallery'),
+};
+
+console.log(refs);
+
+// refs.galleryList.innerHTML = galleryCardsTemplate;
+refs.galleryList.insertAdjacentHTML('beforeend', galleryCardsTemplate);
