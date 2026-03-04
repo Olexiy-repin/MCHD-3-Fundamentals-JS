@@ -1,0 +1,23 @@
+/*
+ * - Подія input
+ * - Подія blur
+ * - Подія change
+ */
+
+const refs = {
+  field: document.querySelector('.js-user-name'),
+  checkbox: document.querySelector('.js-policy-checkbox'),
+};
+
+/*
+TODO: Виводь в консоль все що користувач вводить в input
+*/
+
+/*
+TODO: Користувач вводить в input своє ім'я, після втрати
+TODO: фокусу отримує alert з повідомленням-привітанням
+ */
+
+/*
+TODO: Після того, як користувач активує чекбокс, виводиться alert
+*/
